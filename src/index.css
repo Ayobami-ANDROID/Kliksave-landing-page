@@ -1,0 +1,8 @@
+.testimonial-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.testimonial-swiper .swiper-slide {
+  height: auto;
+  display: flex;
+}
