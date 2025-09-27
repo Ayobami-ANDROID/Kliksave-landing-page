@@ -2,9 +2,11 @@ import React from 'react'
 import Store from '../assets/store.png'
 import iphone from '../assets/iphone.png'
 
+
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center mt-[40px] lg:px-0 px-[24px]'>
+    <div className='flex flex-col items-center mt-[40px] lg:px-0 px-[24px]'  
+   >
         <div>
             <div className='flex flex-col items-center justify-center text-center gap-[24px] '>
                 <h1 className='lg:text-[72px] text-[48px]  leading-[120%] font-bold  tracking-[-2%]'>A More Rewarding way 

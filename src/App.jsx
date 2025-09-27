@@ -10,14 +10,26 @@ import Connected from './components/Connected'
 import Footer from './components/Footer'
 
 import './App.css'
+import background from './assets/background-kliksave.jpg'
+
 
 function App() {
 
 
   return (
     <>
-     <Header/>
-     <Hero/>
+    <div  style={{
+      backgroundImage: `url(${background})`,
+      // backgroundColor: '#CECFC7',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed'
+    }} >
+    <Header/>
+    <Hero/>
+    </div>
+     
      <Product/>
      <Work/>
      <Teams/>
