@@ -1,16 +1,17 @@
 import React from 'react'
 import phone from '../assets/Handheld.png'
 import noise from '../assets/noise.png'
+import backgroundShopping from '../assets/background-shopping.jpg'
 
 const Shopping = () => {
     return (
         <div
             style={{
-                backgroundImage: `url(${noise})`,
+                backgroundImage: `url(${backgroundShopping})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                backgroundColor: '#E24B26' // Fallback color
+                 
             }}
             className='w-full flex flex-col pt-[80px] lg:px-0 px-[24px] text-[#FFFFFF]'
         >

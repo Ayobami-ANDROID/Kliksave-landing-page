@@ -25,9 +25,9 @@ const Work = () => {
             <div>
                 <img src={mock}></img>
             </div>
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-[24px]'>
+            <div className='grid md:grid-cols-3 grid-cols-1 gap-[24px]'>
                 <div className='flex flex-col gap-[24px]'>
-                    <img className='rounded-[16px] h-[360px]' src={profile}></img>
+                    <img className='rounded-[16px]  aspect-square ' src={profile}></img>
                     <div className='flex flex-col gap-10px'>
                         <h3 className='text-[24px] leading-[140%] font-[600]'>Set Up Your Profile</h3>
                         <p className='font-[400] text-[16px] leading-[160%] text-[#6D6D6D]'>Add your preferences and customize your privacy settings</p>
@@ -35,7 +35,7 @@ const Work = () => {
 
                 </div>
                 <div className='flex flex-col gap-[24px]'>
-                    <img  className='rounded-[16px] h-[360px]' src={list}></img>
+                    <img  className='rounded-[16px] aspect-square' src={list}></img>
                     <div className='flex flex-col gap-10px'>
                         <h3 className='text-[24px] leading-[140%] font-[600]'>Build Your First List</h3>
                         <p className='font-[400] text-[16px] leading-[160%] text-[#6D6D6D]'>Start adding items with descriptions, prices, and store information.</p>
@@ -43,7 +43,7 @@ const Work = () => {
 
                 </div>
                 <div className='flex flex-col gap-[24px]'>
-                    <img className='rounded-[16px] h-[360px]' src={optimize}></img>
+                    <img className='rounded-[16px]  aspect-square' src={optimize}></img>
                     <div className='flex flex-col gap-10px'>
                         <h3 className='text-[24px] leading-[140%] font-[600]'>Optimize  Lists and Shop Smarter</h3>
                         <p className='font-[400] text-[16px] leading-[160%] text-[#6D6D6D]'>Optimize your list, select the best shopping path, Use your lists while shopping and check off items as you go</p>
